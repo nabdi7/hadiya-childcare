@@ -1,0 +1,55 @@
+.background-image{
+    background-image: url("../images/kid1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    background-position: center;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title {
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.title-container {
+    text-align: center;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+/* gallery */
+/* .gallery{
+    
+} */
+.gallery-title{
+    color: black;
+    font-size: 35px;
+}
+
+.gallery-box img {
+    margin-right: 20px;
+}
+
+/* testimonials */
+/* .testimonials{
+
+} */
+
+.review-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+}
