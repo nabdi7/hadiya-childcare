@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className='container'>
                 <div className='logo-container'>
                     <Link to="/" className='logo'>
-                        <img src={logo} width='250px' height='auto' max-width='100%' max-height='100%' alt='Logo' />
+                        <img src={logo} width='190px' height='auto' max-width='100%' max-height='100%' alt='Logo' />
                     </Link>
                 </div>
             </div>
