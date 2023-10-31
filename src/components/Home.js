@@ -22,10 +22,12 @@ const Home = () => {
             <div className='gallery-box'>
                 <h1 className='gallery-title'> PHOTO GALLERY</h1>
                 {/* underline */}
-                <img src={image1} width='450px' height='auto' alt='gallery' />
-                <img src={image2} width='450px' height='auto' alt='gallery' />
-                <img src={image3} width='450px' height='auto' alt='gallery' />
-                <img src={image4} width='450px' height='auto' alt='gallery' />
+                <div className='image-grid'>
+                    <img src={image1}  alt='gallery' />
+                    <img src={image2}  alt='gallery' />
+                    <img src={image3}  alt='gallery' />
+                    <img src={image4}  alt='gallery' />
+                </div>
             </div>
 
         </section>
@@ -33,13 +35,13 @@ const Home = () => {
 
         {/* testimonials - link to google reviews */}
         <section className='testimonials'>
-            <h1> Reviews </h1>
+            <h1 className='review-title'> Reviews </h1>
             <div className='review-container'>
                 {/* socialeKit */}
-                <iframe
+                <iframe className='frame-box'
                     src='https://widgets.sociablekit.com/google-reviews/iframe/216756'
                     frameBorder='0'
-                    width='100%'
+                    width='90%'
                     height='1000'
                     title='Google Reviews Widget'
                 ></iframe>
