@@ -23,7 +23,8 @@ body {
     text-align: center;
     font-size: 38px;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .content-container {
@@ -117,4 +118,16 @@ button {
 
 button:hover {
     background-color: #A9B5F9;
+}
+
+.location {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.location-map iframe {
+    width: 80%;
+    height: 450px;
+    border: none;
 }

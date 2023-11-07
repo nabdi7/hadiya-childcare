@@ -3,16 +3,12 @@ import "./Contact.css";
 
 const Contact = () => {
     return (
+        <>
         <div className='contact'>
             <h1 className='contact-title'>Contact Us</h1>
             <div className='content-container'>
                 {/* Left side */}
                 <div className='left-side'>
-                    <div className='content-box'>
-                        <h3 className='content-title'>Are you ready to get started?</h3>
-                        <p className='content-description'>We are here to help you with any questions you may have. Please feel free to contact us at any time.</p>
-                    </div>
-
                     <div className='content-box'>
                         <h3 className='content-title'>Hadiya Home childcare</h3>
                         <p className='content-description'>Address</p>
@@ -55,6 +51,20 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <div className='location'>
+            <div className='location-map'>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10801.355659560008!2d-122.1888045!3d47.4053302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905dd89377c3f5%3A0x6e5d903978bd9f29!2sHadiya%20Home%20Childcare!5e0!3m2!1sen!2sus!4v1699325505949"
+                    width="600"
+                    height="450"
+                    style={{ border: '0' }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+    </>
     );
 }
 
