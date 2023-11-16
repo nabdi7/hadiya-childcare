@@ -10,12 +10,14 @@ const Contact = () => {
                 {/* Left side */}
                 <div className='left-side'>
                     <div className='content-box'>
+                        {/* <h3 className='content-title'>Are you ready to get started?</h3>
+                        <p className='content-description'>If you have questions about the opportunities available in our programs, feel free to send us a message. We will get back to you as soon as possible.</p> */}
                         <h3 className='content-title'>Hadiya Home childcare</h3>
                         <p className='content-description'>Address</p>
                         <p className='content-description'>11409 SE 219th PL Kent, WA 98031</p>
-                        <p className='content-description'>Phone Number</p>
+                        <p className='content-description phone'>Phone Number</p>
                         <p className='content-description'>206-771-8840</p>
-                        <p className='content-description'>Email Address</p>
+                        <p className='content-description email-address'>Email Address</p>
                         <p className='content-description'>abdiqadro5@gmail.com</p>
                     </div>
 
@@ -35,7 +37,7 @@ const Contact = () => {
 
                 {/* Right side */}
                 <div className='right-side'>
-                    <h1>Get in touch</h1>
+                    <h1 className='get-in-touch'>Get in touch</h1>
                     <form>
                         <div>
                             <input type="text" id="name" name="name" placeholder="Name" />
