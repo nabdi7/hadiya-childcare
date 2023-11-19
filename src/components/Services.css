@@ -3,3 +3,169 @@
 * {
     box-sizing: border-box;
 }
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f0f0f0;; */
+}
+
+.page-title {
+    text-align: center;
+    font-size: 38px;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.service-image {
+    width: 100%;
+    max-width: 900px; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px; 
+    overflow: hidden; /* Ensure the border-radius works properly */
+    margin-bottom: 20px;
+}
+
+.services-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-bottom: 3rem;
+}
+
+.our-services {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.services-content .services-description{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.halves-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; 
+    
+}
+
+.services-half {
+    width: 50%; 
+}
+
+.services-half  {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 6rem;
+    margin-bottom: 2rem;
+    background-color: #f0f0f0;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.basics {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.basics li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.left-section {
+    position: absolute;
+    top: -5;
+    left: 0;
+    width: 12%;
+    height: 100%;
+    z-index: -1;
+}
+
+.left-section::before,
+.left-section::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: url('../images/hands.png') no-repeat center center;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.left-section::before {
+    top: 0;
+    left: 0;
+}
+
+.left-section::after {
+    bottom: 0;
+    right: 0;
+}
+
+/* Right section */
+.right-section {
+    position: absolute;
+    top: -5;
+    right: 0;
+    width: 12%;
+    height: 100%;
+    z-index: -1;
+}
+
+.right-section::before,
+.right-section::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: url('../images/hands.png') no-repeat center center;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.right-section::before {
+    top: 0;
+    right: 0;
+}
+
+.right-section::after {
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .services-content .services-description{
+        width: 100%;
+    }
+    .halves-container {
+        flex-direction: column;
+    }
+    .services-half  {
+        width: 90%; 
+        margin: 0 auto;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}
