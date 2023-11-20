@@ -41,36 +41,36 @@ const Home = () => {
         <h1 className='offer-title'>What We Offer</h1>
         <section className='offer-container'>
             <div className='offer-rows'>
-            <div className='offer-box'>
-                <div className='offer-icons'>
-                    <FontAwesomeIcon icon={faClock} />
+                <div className='offer-box'>
+                    <div className='offer-icons'>
+                        <FontAwesomeIcon icon={faClock} />
+                    </div>
+                    <h3 className='offer-sub'>24/7 Operation</h3>
                 </div>
-                <h3 className='offer-sub'>24/7 Operation</h3>
-            </div>
-            <div className='offer-box'>
-                <div className='offer-icons'>
-                    <FontAwesomeIcon icon={faUserCheck} />
+                <div className='offer-box'>
+                    <div className='offer-icons'>
+                        <FontAwesomeIcon icon={faUserCheck} />
+                    </div>
+                    <h3 className='offer-sub'>Qualified Childcare Providers</h3>
                 </div>
-                <h3 className='offer-sub'>Qualified Childcare Providers</h3>
-            </div>
-            <div className='offer-box'>
-                <div className='offer-icons'>
-                    <FontAwesomeIcon icon={faShieldAlt} />
+                <div className='offer-box'>
+                    <div className='offer-icons'>
+                        <FontAwesomeIcon icon={faShieldAlt} />
+                    </div>
+                    <h3 className='offer-sub'>Safety</h3>
                 </div>
-                <h3 className='offer-sub'>Safety</h3>
-            </div>
-            <div className='offer-box'>
-                <div className='offer-icons'>
-                    <FontAwesomeIcon icon={faGamepad} />
+                <div className='offer-box'>
+                    <div className='offer-icons'>
+                        <FontAwesomeIcon icon={faGamepad} />
+                    </div>
+                    <h3 className='offer-sub'>activity room</h3>
                 </div>
-                <h3 className='offer-sub'>activity room</h3>
-            </div>
-            <div className='offer-box'>
-                <div className='offer-icons'>
-                    <FontAwesomeIcon icon={faRunning} />
+                <div className='offer-box'>
+                    <div className='offer-icons'>
+                        <FontAwesomeIcon icon={faRunning} />
+                    </div>
+                    <h3 className='offer-sub'>play area </h3>
                 </div>
-                <h3 className='offer-sub'>play area </h3>
-            </div>
             </div>
         </section>
 
