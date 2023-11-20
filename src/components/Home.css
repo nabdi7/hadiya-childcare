@@ -22,19 +22,21 @@ body {
     align-items: center;
     text-align: center;
 }
+
 .title {
     font-size: 30px;
     margin-bottom: 1rem;
     color: white;
 }
+
 .title-sub {
     font-size: 70px;
     margin-bottom: 1rem;
-    width: 80%;
 }
+
 .title-container {
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,8 +89,47 @@ body {
 }
 
 /* what we offer  */
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.offer-rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5rem;
+}
 
+.offer-title {
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
 
+.offer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-icons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #A9B5F9;
+    padding: 55px 55px;
+    border: none;
+    border-radius: 65px;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    margin: 25px;
+}
+
+.offer-sub {
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
 
 /* testimonials */
 .testimonials {

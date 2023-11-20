@@ -5,8 +5,9 @@ import image1 from '../images/image1.jpeg';
 import image2 from '../images/image2.jpeg';
 import image3 from '../images/image3.jpeg';
 import image4 from '../images/kid4.jpeg';
-import { AiOutlineSafety, AiOutlineClockCircle, AiOutlineUsergroupAdd } from "react-icons/ai";
-import { BiGame, BiRun } from "react-icons/bi";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock, faUserCheck, faShieldAlt, faGamepad, faRunning } from '@fortawesome/free-solid-svg-icons';
+
 
 const Home = () => {
     return (
@@ -37,37 +38,39 @@ const Home = () => {
         </section>
         
         {/* what we offer */}
+        <h1 className='offer-title'>What We Offer</h1>
         <section className='offer-container'>
-            <h1 className='offer-title'>What We Offer</h1>
+            <div className='offer-rows'>
             <div className='offer-box'>
                 <div className='offer-icons'>
-                    <AiOutlineClockCircle />
+                    <FontAwesomeIcon icon={faClock} />
                 </div>
-                <h3 className='offer-title'>24/7 Operation</h3>
+                <h3 className='offer-sub'>24/7 Operation</h3>
             </div>
             <div className='offer-box'>
                 <div className='offer-icons'>
-                    <AiOutlineUsergroupAdd />
+                    <FontAwesomeIcon icon={faUserCheck} />
                 </div>
-                <h3 className='offer-title'>Qualified Childcare Providers</h3>
+                <h3 className='offer-sub'>Qualified Childcare Providers</h3>
             </div>
             <div className='offer-box'>
                 <div className='offer-icons'>
-                    <AiOutlineSafety />
+                    <FontAwesomeIcon icon={faShieldAlt} />
                 </div>
-                <h3 className='offer-title'>Safety</h3>
+                <h3 className='offer-sub'>Safety</h3>
             </div>
             <div className='offer-box'>
                 <div className='offer-icons'>
-                    <BiGame />
+                    <FontAwesomeIcon icon={faGamepad} />
                 </div>
-                <h3 className='offer-title'>activity room</h3>
+                <h3 className='offer-sub'>activity room</h3>
             </div>
             <div className='offer-box'>
                 <div className='offer-icons'>
-                    <BiRun />
+                    <FontAwesomeIcon icon={faRunning} />
                 </div>
-                <h3 className='offer-title'>play area </h3>
+                <h3 className='offer-sub'>play area </h3>
+            </div>
             </div>
         </section>
 
