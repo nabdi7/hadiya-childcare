@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .background-image{
     background-image: url("../images/kid1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 60vh;
+    min-height: 70vh;
     background-position: center;
     padding-top: 4rem;
     display: flex;
@@ -11,8 +23,14 @@
     text-align: center;
 }
 .title {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 1rem;
+    color: white;
+}
+.title-sub {
+    font-size: 70px;
+    margin-bottom: 1rem;
+    width: 80%;
 }
 .title-container {
     text-align: center;
@@ -21,6 +39,20 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 1rem;
+}
+
+.title-container button {
+    background-color: #A9B5F9;
+    color: black;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 20%;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 2rem;
 }
 
 
@@ -53,6 +85,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     border: 1px solid #ddd; 
 }
+
+/* what we offer  */
+
+
 
 /* testimonials */
 .testimonials {

@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <>
         <div className='contact'>
-            <h1 className='contact-title'>Contact Us</h1>
+            <h1 className='global-title'>Contact Us</h1>
             <div className='content-container'>
                 {/* Left side */}
                 <div className='left-side'>
@@ -48,7 +48,7 @@ const Contact = () => {
                         <div>
                             <textarea id="message" name="message" placeholder="Message"></textarea>
                         </div>
-                        <button type="submit">Send</button>
+                        <button className='submit'>Send</button>
                     </form>
                 </div>
             </div>

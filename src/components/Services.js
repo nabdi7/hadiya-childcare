@@ -10,7 +10,7 @@ const Services = () => {
         <div className='right-section'> </div>
 
         <section className='services'>
-            <h1 className='page-title'>Programs</h1>
+            <h1 className='global-title'>Programs</h1>
             <div className='service-image'>
                 <img src={servicePic} alt=''/>
             </div>
