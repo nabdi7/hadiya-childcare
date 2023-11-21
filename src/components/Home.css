@@ -14,7 +14,7 @@ body {
     background-image: url("../images/kid1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    min-height: 80vh;
     background-position: center;
     padding-top: 4rem;
     display: flex;
@@ -59,9 +59,6 @@ body {
 
 
 /* gallery */
-/* .gallery{
-    
-} */
 .gallery-title{
     color: black;
     font-size: 35px;
@@ -69,24 +66,6 @@ body {
     margin-bottom: 3rem;
 }
 
-.gallery-box {
-  text-align: center; 
-}
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px; 
-    margin-bottom: 3rem;
-    margin: 0 auto;
-}
-  
-.image-grid img {
-    max-width: 100%; 
-    height: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    border: 1px solid #ddd; 
-}
 
 /* what we offer  */
 .offer-container {
@@ -155,12 +134,28 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    margin: 1rem;
-    width: 90%; /* Adjust the width as needed */
+    width: 90%;
     margin: 0 auto;
+    /* height: 760px; */
+    /* margin-right: -100px; */
 }
 
 
 @media screen and (max-width: 768px){
 
+
+
+
+
+    /* testimonials frame */
+    .frame-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        width: 90%;
+        margin: 0 auto;
+        height: 760px;
+        /* margin-right: -100px; */
+    }
 }

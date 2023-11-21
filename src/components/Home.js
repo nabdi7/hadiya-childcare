@@ -1,5 +1,6 @@
 import React from "react"; 
 import "./Home.css";
+import Gallery from './Gallery';
 // import logoImage from '../images/hadiya.png';
 import image1 from '../images/image1.jpeg';
 import image2 from '../images/image2.jpeg';
@@ -10,6 +11,14 @@ import { faClock, faUserCheck, faShieldAlt, faGamepad, faRunning } from '@fortaw
 
 
 const Home = () => {
+    const galleryImages = [
+        { img: image1 },
+        { img: image2 },
+        { img: image3 },
+        { img: image4 },
+        { img: image3 },
+        { img: image4 },
+      ]
     return (
         <>
         <div className='background-image'>
@@ -23,20 +32,12 @@ const Home = () => {
 
         
         {/* gallery */}
-        <section className='gallery'>
-            <div className='gallery-box'>
-                <h1 className='gallery-title'> PHOTO GALLERY</h1>
-                {/* underline */}
-                <div className='image-grid'>
-                    <img src={image1}  alt='gallery' />
-                    <img src={image2}  alt='gallery' />
-                    <img src={image3}  alt='gallery' />
-                    <img src={image4}  alt='gallery' />
-                </div>
-            </div>
-
-        </section>
+        <h1 className='gallery-title'> PHOTO GALLERY</h1>
+        <Gallery
+            galleryImages={galleryImages}
+         />
         
+
         {/* what we offer */}
         <h1 className='offer-title'>What We Offer</h1>
         <section className='offer-container'>
@@ -78,12 +79,11 @@ const Home = () => {
         <section className='testimonials'>
             <h1 className='review-title'> What Parents Say</h1>
             <div className='review-container'>
-                {/* socialeKit */}
                 <iframe className='frame-box'
                     src='https://widgets.sociablekit.com/google-reviews/iframe/216756'
                     frameBorder='0'
                     width='90%'
-                    height='1000'
+                    height='650'
                     title='Google Reviews Widget'
                 ></iframe>
             </div>
