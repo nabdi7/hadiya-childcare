@@ -12,15 +12,6 @@
     /* background-color: #f0f0f0;; */
 }
 
-/* .global-title {
-    text-align: center;
-    font-size: 38px;
-    align-items: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-} */
-
 .service-image {
     width: 100%;
     max-width: 900px; 
@@ -60,7 +51,6 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between; 
-    
 }
 
 .services-half {

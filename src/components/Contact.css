@@ -27,7 +27,16 @@ body {
     margin-bottom: 3rem;
     text-transform: uppercase;
 }
-
+.global-title::after {
+    content: "";
+    display: block;
+    width: 90px; 
+    align-items: center;
+    border-bottom: 2px solid #A9B5F9;  
+    position: relative;
+    margin-top: 20px;
+    left: 30%; 
+}
 .content-container {
     display: flex;
     /* width: 100%; */

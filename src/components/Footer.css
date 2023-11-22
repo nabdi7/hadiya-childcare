@@ -11,6 +11,7 @@
     background-color: #f0f0f0;
     padding: 0 2rem;
     border-top: 1px solid #eee;
+    flex-direction: column;
     /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); */
 }
 .logo-div {
@@ -53,6 +54,7 @@
     font-family: 'Inter';
     text-align: center;
     background-color: #f0f0f0;
+    padding: 1rem;
 }
 
 .copyright a {

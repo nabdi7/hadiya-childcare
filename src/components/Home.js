@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Gallery from './Gallery';
 // import logoImage from '../images/hadiya.png';
+import BackImage from "./BackImage";
 import image1 from '../images/image1.jpeg';
 import image2 from '../images/image2.jpeg';
 import image3 from '../images/image3.jpeg';
@@ -21,14 +22,16 @@ const Home = () => {
       ]
     return (
         <>
-        <div className='background-image'>
+        <BackImage  />
+        {/* <div className='background-image'>
             <div className='title-container'>
                 <h1 className='title'>Welcome to Hadiya Home Childcare</h1>
                 <h1 className='title-sub'>Where children learn and have fun </h1>
-                {/* <p>Caring for the future</p> */}
+                <p>Caring for the future</p>
                 <button className='learn-more'>Learn More</button>
             </div>
-        </div>
+        </div> */}
+        
 
         
         {/* gallery */}

@@ -27,7 +27,7 @@ const About = () => {
                     a sense of belonging.</p>
                     <br/>
 
-                <p> I am Qadro, the Director of Hadiya Childcare. Bringing over 5 years of 
+                {/* <p> I am Qadro, the Director of Hadiya Childcare. Bringing over 5 years of 
                     dedicated experience as a childcare provider, I am committed to empowering 
                     children with the essential skills for both their immediate growth and 
                     long-term success.
@@ -36,7 +36,7 @@ const About = () => {
                     and fun, to equip children with the tools they need to thrive and achieve 
                     a bright and happy future. I ensure that children not only learn but also 
                     find joy in their educational journey, setting the foundation for a bright 
-                    and prosperous future.</p>
+                    and prosperous future.</p> */}
                     <br/>
 
                 <p> Get in touch. </p>
@@ -46,6 +46,8 @@ const About = () => {
 
             <div className='contact-us'>
                 <div className='background-pic'>
+                    <h1 className='enroll-now'> <b>Call to enroll your child </b></h1>
+                    <h1 className='enroll-now'> <b>(206)771-8840 </b></h1>
                     <div className='title-about'>
                         <button className='learn-more'>Contact Us</button>
                     </div>

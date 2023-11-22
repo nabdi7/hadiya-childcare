@@ -9,8 +9,23 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+/* colors 
+ --e-global-color-primary: #393D72;
+--e-global-color-secondary: #FF4880; 
 
-.background-image{
+titles h1, h2, h3, h4, h5, h6
+--e-global-color-primary: #393D72;
+--e-global-color-secondary: #FF4880; 
+
+border-radius
+--e-global-color-primary: #393D72;
+--e-global-color-secondary: #FF4880;
+
+icons
+--e-global-color-primary: #393D72;
+--e-global-color-secondary: #FF4880;*/
+
+/* .background-image{
     background-image: url("../images/kid1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +47,7 @@ body {
 .title-sub {
     font-size: 70px;
     margin-bottom: 1rem;
-}
+} 
 
 .title-container {
     text-align: center;
@@ -56,7 +71,7 @@ body {
     margin-top: 20px;
     margin-bottom: 2rem;
 }
-
+*/
 
 /* gallery */
 .gallery-title{
@@ -65,7 +80,16 @@ body {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-
+.gallery-title::after {
+    content: "";
+    display: block;
+    width: 90px; 
+    align-items: center;
+    border-bottom: 2px solid #A9B5F9;  
+    position: relative;
+    margin-top: 20px;
+    left: 47%; 
+}
 
 /* what we offer  */
 .offer-container {
@@ -85,7 +109,16 @@ body {
     font-size: 35px;
     margin-bottom: 1rem;
 }
-
+.offer-title::after {
+    content: "";
+    display: block;
+    width: 90px; 
+    align-items: center;
+    border-bottom: 2px solid #A9B5F9;  
+    position: relative;
+    margin-top: 20px;
+    left: 47%; 
+}
 .offer-box {
     display: flex;
     flex-direction: column;
@@ -144,9 +177,51 @@ body {
 @media screen and (max-width: 768px){
 
 
-
-
-
+    /* what we offer */
+    .offer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .offer-rows {
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer-icons {
+        margin-bottom: 1rem; /* Add some spacing between the icons */
+    }
+    .offer-title::after {
+        content: "";
+        display: block;
+        width: 90px; 
+        align-items: center;
+        border-bottom: 2px solid #A9B5F9;  
+        position: relative;
+        margin-top: 20px;
+        left: 40%; 
+    }
+    .offer-icons {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        background-color: #A9B5F9;
+        padding: 55px 55px;
+        border: none;
+        border-radius: 65px;
+        margin-bottom: 1rem;
+        font-size: 35px;
+        margin: 25px;
+    }
+    
+    .offer-sub {
+        font-size: 15px;
+        margin-bottom: 1rem;
+    }
     /* testimonials frame */
     .frame-box{
         display: flex;
