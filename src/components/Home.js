@@ -27,8 +27,7 @@ const Home = () => {
         <div className='background-image'>
             <div className='title-container'>
                 <h1 className='title'>Welcome to Hadiya Home Childcare</h1>
-                <h1 className='title-sub'>Where children learn and have fun </h1>
-                <p>Caring for the future</p>
+                <h1 className='title-sub'>Caring for the future </h1>
                 <button className='learn-more'>Learn More</button>
             </div>
         </div>
@@ -43,8 +42,9 @@ const Home = () => {
         
 
         {/* what we offer */}
-        <h1 className='offer-title'>What We Offer</h1>
+        
         <section className='offer-container'>
+            <h1 className='offer-title'>What We Offer</h1>
             <div className='offer-rows'>
                 <div className='offer-box'>
                     <div className='offer-icons'>

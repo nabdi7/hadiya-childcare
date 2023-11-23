@@ -1,6 +1,7 @@
 import React from "react"; 
 import "./Services.css";
 import servicePic from '../images/Preschool.jpeg';
+import pic3 from '../images/pic8.jpg';
 
 const Services = () => {
     return (
@@ -68,6 +69,9 @@ const Services = () => {
                         skills..</p>
                     </div>
                 </div>
+            </div>
+            <div className='about-image'>
+            <img src={pic3} alt='images'/>
             </div>
         </section>
 

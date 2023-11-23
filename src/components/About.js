@@ -43,7 +43,12 @@ const About = () => {
                     
                 <p> <b>abdiqadro5@gmail.com </b></p>
             </div>
+            
+            <div className='program-container'>
 
+
+            
+            </div>
             <div className='contact-us'>
                 <div className='background-pic'>
                     <h1 className='enroll-now'> <b>Call to enroll your child </b></h1>
