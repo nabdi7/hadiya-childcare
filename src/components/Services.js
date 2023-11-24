@@ -33,13 +33,6 @@ const Services = () => {
                         we believe in the fundamentals. From a structured daily routine to 
                         nutritious meals, we cover the essentials to ensure a well-rounded 
                         and healthy experience for your child.</p>
-                        {/* <div className='left-section'></div> */}
-                        <ul className='basics'>
-                            <li>Part-time, Full-time</li>
-                            <li>Snacks Provided</li>
-                            <li>Meals Provided</li>
-                            <li>Certified in First Aid, CPR, teaching, and Early Childhood Education</li>
-                        </ul>
                     </div>
                     <div className='services-half'>
                         <h2 className='services-title'>Safety</h2>
@@ -52,26 +45,64 @@ const Services = () => {
                 </div>
                 <div className='halves-container'>
                     <div className='services-half'>
-                        <h2 className='services-title'>Tuition</h2>
-                        <p className='services-description'>Please contact us. DCYF and Private pay accepted.</p>
+                        <h2 className='services-title'>Toddler 1-2 Yr Old</h2>
+                        <p className='services-description'>Our Toddler program is thoughtfully crafted 
+                        to cater to the unique needs of children aged 1-2 years. Our experienced caregivers 
+                        focus on fostering basic cognitive, language, motor, and social skills, 
+                        laying the foundation for a lifetime of curiosity and discovery.</p>
                         
                     </div>
                     <div className='services-half'>
+                        <h2 className='services-title'>Preschool 2-3 Yr Old</h2>
+                        <p className='services-description'>In our preschool program, we focus on 
+                        laying the foundation for your child's academic and social development. 
+                        Through engaging activities and play, we help them build essential skills 
+                        that prepare them for a successful transition to formal education.</p>
+                    </div>
+                </div>
+                <div className='halves-container'>
+                    <div className='services-half'>
+                        <h2 className='services-title'>Pre-K 4-5 Yr Old</h2>
+                        <p className='services-description'>Our Pre-K program is designed to prepare 
+                        your child for the academic challenges of kindergarten. We focus on 
+                        developing advanced cognitive, language, motor, and social skills to 
+                        ensure a smooth transition to the next educational level.</p>
+ 
+                    </div>
+                    <div className='services-half'>
+                        <h2 className='services-title'>Kindergarden Program</h2>
+                        <p className='services-description'>In our Kindergarten program, we provide a 
+                        comprehensive educational experience that goes beyond the basics. 
+                        Your child will engage in advanced learning activities, fostering 
+                        intellectual growth and social development, setting the stage for a 
+                        successful academic journey.</p>
+  
+                    </div>
+                </div>
+                <div className='halves-container'>
+                    <div className='services-half'>
                         <h2 className='services-title'>Teachers</h2>
-                        <p className='services-description'>As a dedicated childcare provider 
-                        with extensive experience from raising my own children to mentoring in a 
-                        childcare facility to attain the necessary skills, I'm devoted to 
-                        providing children with the tools they need to thrive and succeed.
-                        With my professional experience and certifications in First Aid, CPR, 
-                        teaching, and Early Childhood Education, I'm highly accomplished in 
-                        teaching both educational and intentional play activities designed to 
-                        develop children's' psychological, emotional, behavioral, and social 
-                        skills..</p>
+                        <p className='services-description'>Our dedicated childcare providers 
+                            have extensive experience in childcare, education, and mentoring. 
+                            With certifications in First Aid, CPR, teaching, and Early Childhood 
+                            Education. We are committed to creating a supportive environment for 
+                            your child's psychological, emotional, behavioral, and social development 
+                           </p>
+                    </div>
+                    <div className='services-half'>
+                        <h2 className='services-title'>Tuition</h2>
+                        <p className='services-description'>We offer various tuition fees tailored to 
+                        our different programs. Please contact us for detailed information on tuition 
+                        costs. You can reach us at.</p>
+                        <br />
+                        <p className='services-description'><b>(206)771-8840</b></p>
+                        <br />
+                        <p className='services-description'><b>DCYF and Private pay accepted.</b></p>
                     </div>
                 </div>
             </div>
-            <div className='about-image'>
-            <img src={pic3} alt='images'/>
+            <div className='service1-image'>
+                <img src={pic3} alt='images'/>
             </div>
         </section>
 

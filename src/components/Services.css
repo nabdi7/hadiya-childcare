@@ -38,6 +38,11 @@
     text-align: center;
     margin: 0 auto;
 }
+.services-half .services-description{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 .services-title {
     font-weight: bold;
@@ -70,16 +75,6 @@
     transition: all 0.3s ease;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
-}
-
-.basics {
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-.basics li {
-    margin-bottom: 5px;
-    text-align: center;
 }
 
 .left-section {
@@ -145,6 +140,14 @@
     left: 0;
 }
 
+.service1-image img{
+    width: 45%;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
 @media screen and (max-width: 767px) {
     .services-content .services-description{
         width: 100%;
@@ -162,5 +165,11 @@
         width: 95%;
         align-items: center;
         justify-content: center;
+    }
+    .service1-image img{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin: 10px;
     }
 }

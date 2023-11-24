@@ -1,13 +1,13 @@
 import React from "react"; 
 import "./Home.css";
 import Gallery from './Gallery';
-
-// import logoImage from '../images/hadiya.png';
-
 import image1 from '../images/image1.jpeg';
 import image2 from '../images/image2.jpeg';
 import image3 from '../images/image3.jpeg';
 import image4 from '../images/kid4.jpeg';
+import proImg1 from '../images/proImg1.jpeg';
+import proImg2 from '../images/after.jpeg';
+import proImg3 from '../images/proImg3.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faUserCheck, faShieldAlt, faGamepad, faRunning } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,11 +28,43 @@ const Home = () => {
             <div className='title-container'>
                 <h1 className='title'>Welcome to Hadiya Home Childcare</h1>
                 <h1 className='title-sub'>Caring for the future </h1>
-                <button className='learn-more'>Learn More</button>
+                {/* <button className='learn-more'>Learn More</button> */}
             </div>
         </div>
         
-
+        <section className='program-container'>
+            <div className='program-div'>
+                <h1 className='prog-title'>Programs</h1>
+                <h2> Age Appropriate Rooms</h2>
+                <div className='program-types'>
+                    <img src={proImg1} className='circleImg' alt='images'/>
+                    <h3> Preschool </h3>
+                    <p> Our Preschool program is designed to spark curiosity 
+                        and foster a love for learning in young minds. We 
+                        cultivate an environment where children explore, 
+                        discover, and develop skills.</p>
+                </div>
+                <div className='program-types'>
+                    <img src={proImg3} className='circleImg' alt='images'/>
+                    <h3> Kindergarten </h3>
+                    <p> Our Kindergarten program is designed to 
+                        prepare children for the academic challenges of 
+                        kindergarten. We focus on developing advanced 
+                        language, motor, and social skills.</p>
+                </div>
+                <div className='program-types' style={{ marginRight: 0 }}>
+                    <img src={proImg2} className='circleImg' alt='images'/>
+                    <h3> After-School </h3>
+                    <p> Our After-School Program provides a supportive 
+                        environment for continued learning and growth. We 
+                        offer engaging activities that complement
+                        your child's school experience.</p>
+                </div>
+            </div>
+            <div className='prog-learn'>
+                <button className='learn-more'>Learn More</button>
+            </div>
+        </section>
         
         {/* gallery */}
         <h1 className='gallery-title'> PHOTO GALLERY</h1>
@@ -42,7 +74,6 @@ const Home = () => {
         
 
         {/* what we offer */}
-        
         <section className='offer-container'>
             <h1 className='offer-title'>What We Offer</h1>
             <div className='offer-rows'>
