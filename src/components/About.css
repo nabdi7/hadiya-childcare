@@ -9,7 +9,24 @@
 body {
     font-family: 'Inter', sans-serif;
 }
-
+.about-title {
+    text-align: center;
+    font-size: 38px;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+.about-title::after {
+    content: "";
+    display: block;
+    width: 90px; 
+    align-items: center;
+    border-bottom: 2px solid #A9B5F9;  
+    position: relative;
+    margin-top: 20px;
+    left: 47%; 
+}
 .about {
     display: flex;
     flex-direction: column; 
@@ -20,18 +37,20 @@ body {
 
 }
 .about-content {
+    max-width: 80%;
     display: flex;
     align-items: flex-start;
     margin-bottom: 4rem;
 }
 
 .about-image {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .about-image img {
-    width: 60%;
+    width: 90%;
     height: auto;
     border-radius: 15px;
     margin: 10px;
@@ -43,17 +62,31 @@ body {
     margin-bottom: 3rem;
     flex-direction: column;
 }
-/* .about-description {
-    width: 80%;
+.about-description {
+    width: 110%;
     text-align: left;
     margin: 0 auto;
-} */
+}
 
 .philosophy {
     align-items: flex-start;
     margin-bottom: 0.5rem;
+    text-align: flex-start;
 }
 
+.content-schedule {
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.scheduling-hours {
+    list-style: none;
+}
+
+.scheduling-hours li {
+    margin-bottom: 5px;
+}
 
 /* contact us container */
 .contact-us {
@@ -112,16 +145,43 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+    .about-title::after {
+        content: "";
+        display: block;
+        width: 90px; 
+        align-items: center;
+        border-bottom: 2px solid #A9B5F9;  
+        position: relative;
+        margin-top: 20px;
+        left: 40%; 
+    }
+    .about-content {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center;
+    }
+    .about-container {
+        max-width: 600px; 
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        flex-direction: column;
+    }
     .about-image {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
     }
     .about-image img {
-        width: 90%;
+        width: 105%;
+    }
+    .about-container {
+        margin-bottom: 2rem; 
     }
 
+    .about-description {
+        width: 110%; 
+        text-align: left;
+        margin: 0; 
+    }
     .enroll-now {
         display: flex;
         flex-direction: column;

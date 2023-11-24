@@ -8,7 +8,7 @@ const About = () => {
         <>
         <div className='left-section'></div>
         <div className='right-section'> </div>
-        <h1 className='global-title'>About</h1>
+        <h1 className='about-title'>About</h1>
         <section className='about'>
             
             <div className='about-content'>  
@@ -48,9 +48,21 @@ const About = () => {
                         promoting positive relationships between home and school.
                         </p>
                         <br/>
+                        <br/>
                     <p> Get in touch. </p>
                         
                     <p> <b>abdiqadro5@gmail.com </b></p>
+                        <br/>
+                    <h3 className='content-schedule'>Hours of operation</h3>
+                        <ul className='scheduling-hours'>
+                            <li>Mon: 06:00 am - 06:00 pm</li>
+                            <li>Tue: 06:00 am - 06:00 pm</li>
+                            <li>Wed: 06:00 am - 06:00 pm</li>
+                            <li>Thu: 06:00 am - 06:00 pm</li>
+                            <li>Fri: 06:00 am - 06:00 pm</li>
+                            <li>Sat: closed</li>
+                            <li>Sun: closed</li>
+                        </ul>
                 </div>
             </div>
             
