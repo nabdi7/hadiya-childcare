@@ -99,8 +99,8 @@ const Home = () => {
                     </div>
                     <h3 className='offer-sub'>Qualified Childcare Providers</h3>
                 </div>
-                <div className='offer-box different1'>
-                    <div className='offer-icons'>
+                <div className='offer-box'>
+                    <div className='offer-icons different1'>
                         <FontAwesomeIcon icon={faShieldAlt} />
                     </div>
                     <h3 className='offer-sub'>Safety</h3>
