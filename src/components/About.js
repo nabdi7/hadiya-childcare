@@ -1,9 +1,16 @@
 import React from "react"; 
+import { Link, useNavigate } from 'react-router-dom';
 import "./About.css";
 import pic1 from '../images/pic1.jpeg';
 import pic2 from '../images/pic2.webp';
 
 const About = () => {
+    const navigate = useNavigate();
+  
+    const scrollToContact = (event) => {
+        navigate('/contact');
+        window.scrollTo(0, 0);
+    };
     return (
         <>
         <div className='left-section'></div>
@@ -72,7 +79,9 @@ const About = () => {
                     <h1 className='enroll-now'> <b>Call to enroll your child </b></h1>
                     <h1 className='enroll-now'> <b>(206)771-8840 </b></h1>
                     <div className='title-about'>
-                        <button className='learn-more'>Contact Us</button>
+                        <Link to="/contact" className='learn-more-link' onClick={scrollToContact}>
+                            <button className='learn-more'>Contact Us</button>
+                        </Link>
                     </div>
                 </div>
 

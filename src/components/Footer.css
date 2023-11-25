@@ -61,3 +61,41 @@
     text-decoration: none;
     color: inherit;
 }
+
+@media screen and (max-width: 767px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 0 1.5rem;
+        border-top: 1px solid #eee;
+        flex-direction: column;
+        /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); */
+    }
+    .footer-title {
+        font-size: 20px;
+        margin-bottom: 1rem;
+        color: #000;
+        font-family: 'Inter';
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-description {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        color: #000;
+        font-family: 'Inter';
+        align-items: center;
+        justify-content: center;
+    }
+    .copyright {
+        font-size: 12px;
+        color: #000;
+        font-family: 'Inter';
+        text-align: center;
+        background-color: #f0f0f0;
+       font-weight: 500;
+    }
+}

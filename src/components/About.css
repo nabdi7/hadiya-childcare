@@ -204,3 +204,64 @@ body {
     }
     
 }
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .about-title::after {
+        content: "";
+        display: block;
+        width: 90px; 
+        align-items: center;
+        border-bottom: 2px solid #A9B5F9;  
+        position: relative;
+        margin-top: 20px;
+        left: 45%; 
+    }
+    .about-content {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center;
+    }
+    .about-container {
+        max-width: 600px; 
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        flex-direction: column;
+    }
+    .about-image {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-image img {
+        width: 105%;
+    }
+    .about-container {
+        margin-bottom: 2rem; 
+    }
+
+    .about-description {
+        width: 110%; 
+        text-align: left;
+        margin: 0; 
+    }
+    .enroll-now {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        color: black;
+        font-size: 30px;
+    }
+    .title-about button {
+        background-color: #A9B5F9;
+        color: black;
+        padding: 20px 15px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 17px;
+        width: 100%;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 2rem;
+    }
+
+}

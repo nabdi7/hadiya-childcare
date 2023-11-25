@@ -1,4 +1,5 @@
 import React from "react"; 
+import { Link, useNavigate } from 'react-router-dom';
 import "./Home.css";
 import Gallery from './Gallery';
 import image1 from '../images/image1.jpeg';
@@ -21,6 +22,13 @@ const Home = () => {
         { img: image3 },
         { img: image4 },
       ]
+    const navigate = useNavigate();
+  
+    const scrollToServices = (event) => {
+        navigate('/services');
+        window.scrollTo(0, 0);
+    };
+
     return (
         <>
     
@@ -62,7 +70,9 @@ const Home = () => {
                 </div>
             </div>
             <div className='prog-learn'>
-                <button className='learn-more'>Learn More</button>
+                <Link to="/services" className='learn-more-link' onClick={scrollToServices}>
+                    <button className='learn-more'>Learn More</button>
+                </Link>
             </div>
         </section>
         
@@ -84,25 +94,25 @@ const Home = () => {
                     <h3 className='offer-sub'>24/7 Operation</h3>
                 </div>
                 <div className='offer-box'>
-                    <div className='offer-icons'>
+                    <div className='offer-icons different'>
                         <FontAwesomeIcon icon={faUserCheck} />
                     </div>
                     <h3 className='offer-sub'>Qualified Childcare Providers</h3>
                 </div>
-                <div className='offer-box'>
+                <div className='offer-box different1'>
                     <div className='offer-icons'>
                         <FontAwesomeIcon icon={faShieldAlt} />
                     </div>
                     <h3 className='offer-sub'>Safety</h3>
                 </div>
                 <div className='offer-box'>
-                    <div className='offer-icons'>
+                    <div className='offer-icons different2'>
                         <FontAwesomeIcon icon={faGamepad} />
                     </div>
                     <h3 className='offer-sub'>activity room</h3>
                 </div>
                 <div className='offer-box'>
-                    <div className='offer-icons'>
+                    <div className='offer-icons different3'>
                         <FontAwesomeIcon icon={faRunning} />
                     </div>
                     <h3 className='offer-sub'>play area </h3>

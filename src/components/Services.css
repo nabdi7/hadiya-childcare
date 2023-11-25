@@ -167,9 +167,27 @@
         justify-content: center;
     }
     .service1-image img{
-        width: 100%;
+        width: 95%;
         height: auto;
         border-radius: 15px;
         margin: 10px;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .services-content .services-description{
+        width: 95%;
+    }
+    
+    .services-half  {
+        width: 100%; 
+        margin-bottom: 2rem;
+    }
+    .service-image {
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
 }
