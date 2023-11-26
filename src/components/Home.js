@@ -7,8 +7,8 @@ import image2 from '../images/image2.jpeg';
 import image3 from '../images/image3.jpeg';
 import image4 from '../images/kid4.jpeg';
 import proImg1 from '../images/proImg1.jpeg';
-import proImg2 from '../images/after.jpeg';
-import proImg3 from '../images/proImg3.jpeg';
+import proImg2 from '../images/after.jpg';
+import proImg3 from '../images/proImg3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faUserCheck, faShieldAlt, faGamepad, faRunning } from '@fortawesome/free-solid-svg-icons';
 
