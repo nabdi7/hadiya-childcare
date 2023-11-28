@@ -28,10 +28,6 @@ const Navbar = () => {
                 </ul>
             </div>
         </nav>
-        
-        <div className='hamburger'>
-
-        </div>
 
         </>
     );
