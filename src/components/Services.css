@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 767px) {
     .services-content .services-description{
-        width: 100%;
+        width: 95%;
     }
     .halves-container {
         flex-direction: column;
