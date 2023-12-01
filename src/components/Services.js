@@ -62,20 +62,19 @@ const Services = () => {
                 </div>
                 <div className='halves-container'>
                     <div className='services-half'>
-                        <h2 className='services-title'>Pre-K 4-5 Yr Old</h2>
-                        <p className='services-description'>Our Pre-K program is designed to prepare 
-                        your child for the academic challenges of kindergarten. We focus on 
-                        developing advanced cognitive, language, motor, and social skills to 
-                        ensure a smooth transition to the next educational level.</p>
+                        <h2 className='services-title'>Ages 4-5 Yr Old</h2>
+                        <p className='services-description'>Our program is designed to prepare 
+                        your child for the academic challenges of kindergarten. Through engaging 
+                        activities and play, we help them build essential skills that prepare 
+                        them for a successful transition to formal education.</p>
  
                     </div>
                     <div className='services-half'>
-                        <h2 className='services-title'>Kindergarden Program</h2>
-                        <p className='services-description'>In our Kindergarten program, we provide a 
-                        comprehensive educational experience that goes beyond the basics. 
-                        Your child will engage in advanced learning activities, fostering 
-                        intellectual growth and social development, setting the stage for a 
-                        successful academic journey.</p>
+                        <h2 className='services-title'>kindergarten Age</h2>
+                        <p className='services-description'>In our program services, our 
+                        primary focus is on providing exceptional caregiving for your child. 
+                        We prioritize creating a nurturing and supportive environment to 
+                        ensure their well-being and happiness.</p>
   
                     </div>
                 </div>

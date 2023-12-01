@@ -272,6 +272,9 @@ body {
 
 
 @media screen  and (max-width: 991px){
+    .background-image {
+        background-attachment: scroll;
+    }
     .title {
         font-size: 25px;
         margin-bottom: 1rem;
