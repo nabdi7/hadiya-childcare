@@ -276,15 +276,19 @@ body {
         background-attachment: scroll;
     }
     .title {
-        font-size: 25px;
+        font-size: 24px;
         margin-bottom: 1rem;
+        line-height: 1.1;
+        letter-spacing: -.9px;
         color: white;
         font-style: italic;
         padding: 10px;
     }
     
     .title-sub {
-        font-size: 75px;
+        font-size: 5rem;
+        line-height: 1.1;
+        letter-spacing: -.4px;
         margin-bottom: 1rem;
     }
     
