@@ -2,10 +2,10 @@ import React from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import "./Home.css";
 import Gallery from './Gallery';
-import image1 from '../images/image1.jpeg';
-import image2 from '../images/image2.jpeg';
-import image3 from '../images/image3.jpeg';
-import image4 from '../images/kid4.jpeg';
+import image1 from '../images/images1.jpg';
+import image2 from '../images/images2.jpg';
+import image3 from '../images/images3.jpg';
+// import image4 from '../images/images5.webp';
 import proImg1 from '../images/proImg1.jpeg';
 import proImg2 from '../images/after.jpg';
 import proImg3 from '../images/proImg3.jpg';
@@ -18,9 +18,9 @@ const Home = () => {
         { img: image1 },
         { img: image2 },
         { img: image3 },
-        { img: image4 },
-        { img: image3 },
-        { img: image4 },
+        // { img: image4 },
+        // { img: image3 },
+        // { img: image4 },
       ]
     const navigate = useNavigate();
   
