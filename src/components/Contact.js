@@ -1,7 +1,40 @@
-import React from "react";
+import React, { useState, useRef } from 'react';
 import "./Contact.css";
+import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
+    const [formSubmitted, setFormSubmitted] = useState(false);
+    const [contactMessage, setContactMessage] = useState("");
+    const [user_name, setName] = useState(""); 
+    const [user_email, setEmail] = useState(""); 
+    const [message, setMessage] = useState("");
+    const formRef = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+    emailjs
+      .sendForm("service_j3nyl4y", "template_if9y1ud", formRef.current, "Su2Fj91t8uKmDnkig")
+      .then(
+        (result) => {
+          console.log("Email sent successfully:", result);
+          setFormSubmitted(true);
+          setContactMessage("We got your message. Thanks!");
+          setTimeout(() => {
+            setContactMessage("");
+            setName("");
+            setEmail("");
+            setMessage("");
+            setFormSubmitted(false);
+          }, 2000);
+        },
+        (error) => {
+          console.error("Email sending failed:", error);
+
+        }
+      );
+    };
     return (
         <>
         <div className='contact'>
@@ -38,17 +71,41 @@ const Contact = () => {
                 {/* Right side */}
                 <div className='right-side'>
                     <h1 className='get-in-touch'>Get in touch</h1>
-                    <form>
+                    <form ref={formRef} onSubmit={sendEmail}>
                         <div>
-                            <input type="text" id="name" name="name" placeholder="Name" />
-                        </div>
+                            <input
+                                    type='text'
+                                    placeholder='Name'
+                                    name='user_name' 
+                                    value={user_name} 
+                                    onChange={(e) => setName(e.target.value)}
+                                    required
+                                />                        </div>
                         <div>
-                            <input type="email" id="email" name="email" placeholder="Email" />
-                        </div>
+                            <input
+                                    type='email'
+                                    placeholder='Email'
+                                    name='user_email' 
+                                    value={user_email} 
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    required
+                                />                        </div>
                         <div>
-                            <textarea id="message" name="message" placeholder="Message"></textarea>
+                        <textarea
+                                placeholder='Message'
+                                id="message"
+                                name="message"
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                required
+                            ></textarea>
                         </div>
                         <button className='submit'>Send</button>
+                        {formSubmitted && (
+                            <h6 className='thank-you-message'>
+                                Received! We'll get back to you shortly. Thanks!
+                            </h6>
+                            )}
                     </form>
                 </div>
             </div>

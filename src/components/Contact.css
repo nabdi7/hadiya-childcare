@@ -160,7 +160,11 @@ button {
 button:hover {
     background-color: #A9B5F9;
 }
-
+.thank-you-message {
+    margin-top: 1rem;
+    color: #A9B5F9; 
+    font-size: 15px;
+}
 .location {
     text-align: center;
     margin-top: 2rem;
