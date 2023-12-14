@@ -36,14 +36,6 @@ const About = () => {
                         a sense of belonging.</p>
                         <br/>
 
-                    {/* <p> I am Qadro, the Director of Hadiya Childcare. Bringing over 5 years of 
-                        dedicated experience as a childcare provider, I am committed to empowering 
-                        children with the essential skills for both their immediate growth and 
-                        long-term success.
-                        <br/>
-                        With my certifications in First Aid and CPR, I balance safety, education, 
-                        and fun, to equip children with the tools they need to thrive and achieve 
-                        a bright and happy future.</p> */}
                         <br/>
                     <h1 className='philosophy'>Our Philosophy</h1>
                     <p className='about-description'> Our programs are specifically designed to dramatically 
@@ -58,17 +50,17 @@ const About = () => {
                         <br/>
                     <p> Get in touch. </p>
                         
-                    <p> <b>abdiqadro5@gmail.com </b></p>
+                    <p> <a href='mailto:abdiqadro5@gmail.com'><b>abdiqadro5@gmail.com</b></a></p>
                         <br/>
                     <h3 className='content-schedule'>Hours of operation</h3>
                         <ul className='scheduling-hours'>
-                            <li>Mon: 06:00 am - 06:00 pm</li>
-                            <li>Tue: 06:00 am - 06:00 pm</li>
-                            <li>Wed: 06:00 am - 06:00 pm</li>
-                            <li>Thu: 06:00 am - 06:00 pm</li>
-                            <li>Fri: 06:00 am - 06:00 pm</li>
-                            <li>Sat: closed</li>
-                            <li>Sun: closed</li>
+                            <li>Mon: open 24 hours</li>
+                            <li>Tue: open 24 hours</li>
+                            <li>Wed: open 24 hours</li>
+                            <li>Thu: open 24 hours</li>
+                            <li>Fri: open 24 hours</li>
+                            <li>Sat: open 24 hours</li>
+                            <li>Sun: open 24 hours</li>
                         </ul>
                 </div>
             </div>

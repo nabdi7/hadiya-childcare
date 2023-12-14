@@ -73,7 +73,10 @@ body {
     margin-bottom: 0.5rem;
     text-align: flex-start;
 }
-
+.about-container a {
+    text-decoration: none;
+    color: black;
+}
 .content-schedule {
     font-weight: bold;
     margin-top: 2rem;

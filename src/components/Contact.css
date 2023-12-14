@@ -71,7 +71,10 @@ body {
 .phone {
     margin-top: 30px;
 }
-
+.content-description a {
+    text-decoration: none;
+    color: black;
+}
 .email-address {
     margin-top: 30px;
 }

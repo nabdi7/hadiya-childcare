@@ -47,23 +47,23 @@ const Contact = () => {
                         <p className='content-description'>If you have questions about the opportunities available in our programs, feel free to send us a message. We will get back to you as soon as possible.</p> */}
                         <h3 className='content-title'>Hadiya Home childcare</h3>
                         <p className='content-description'>Address</p>
-                        <p className='content-description'>11409 SE 219th PL Kent, WA 98031</p>
+                        <p className='content-description'><a href='https://www.google.com/maps/place/Hadiya+Home+Childcare/@47.4053302,-122.1913848,17z/data=!3m1!4b1!4m6!3m5!1s0x54905dd89377c3f5:0x6e5d903978bd9f29!8m2!3d47.4053302!4d-122.1888045!16s%2Fg%2F11v611htf3?entry=ttu'>11409 SE 219th PL Kent, WA 98031 </a></p>
                         <p className='content-description phone'>Phone Number</p>
-                        <p className='content-description'>206-771-8840</p>
+                        <p className='content-description'><a href='tel:+12068833462'><b>(206)771-8840</b></a></p>
                         <p className='content-description email-address'>Email Address</p>
-                        <p className='content-description'>abdiqadro5@gmail.com</p>
+                        <p className='content-description'><a href='mailto:abdiqadro5@gmail.com'><b>abdiqadro5@gmail.com</b></a></p>
                     </div>
 
                     <div className='content-box'>
                         <h3 className='content-title'>Hours of operation</h3>
                         <ul className='schedule-hours'>
-                            <li>Mon: 06:00 am - 06:00 pm</li>
-                            <li>Tue: 06:00 am - 06:00 pm</li>
-                            <li>Wed: 06:00 am - 06:00 pm</li>
-                            <li>Thu: 06:00 am - 06:00 pm</li>
-                            <li>Fri: 06:00 am - 06:00 pm</li>
-                            <li>Sat: closed</li>
-                            <li>Sun: closed</li>
+                            <li>Mon: open 24 hours</li>
+                            <li>Tue: open 24 hours</li>
+                            <li>Wed: open 24 hours</li>
+                            <li>Thu: open 24 hours</li>
+                            <li>Fri: open 24 hours</li>
+                            <li>Sat: open 24 hours</li>
+                            <li>Sun: open 24 hours</li>
                         </ul>
                     </div>
                 </div>
