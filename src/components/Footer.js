@@ -11,7 +11,7 @@ const Footer = () => {
                 <p className='footer-description'> <a href='tel:+12068833462'><b>(206)771-8840</b></a></p>
             </div>
             <div className="copyright">
-                <p>Made by <a href="https://qualitydesigns.site/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', fontWeight: 'bold'}}>Quality Designs</a> || ©{new Date().getFullYear()} Hadiya Childcare</p>
+                <p>Made by <a href="https://qdwebdesigns.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black', fontWeight: 'bold'}}>QD Web Designs</a> || ©{new Date().getFullYear()} Hadiya Childcare</p>
             </div>
         </footer>
 
